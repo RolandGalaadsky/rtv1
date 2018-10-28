@@ -4,6 +4,8 @@ ray tracing project in UNIT Factory on graphical branch.
 ...
 
 ## Usage:
+cd rtv1
+make
 ./rtv1 tests/somefile_test_file
 
 ## Screnshots
