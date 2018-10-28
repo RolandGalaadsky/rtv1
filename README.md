@@ -15,10 +15,11 @@ to install this packages you need to write in your terminal :
 sudo apt install git libx11-dev libxext-dev build-essential clang
 ```
 ## Usage:
+```bash
 cd rtv1
 make
 ./rtv1 tests/somefile_test_file
-
+```
 ## Screnshots
 
 ### room test file
