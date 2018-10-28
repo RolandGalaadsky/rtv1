@@ -13,6 +13,9 @@ to install this packages you can write in your terminal :
   
 ```bash
 sudo apt install git libx11-dev libxext-dev build-essential clang
+```
+then just clone repo
+```bash
 git clone https://github.com/RolandGalaadsky/rtv1.git ~/path_that_you_want/rtv1
 ```
 ## Usage:
