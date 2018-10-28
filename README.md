@@ -17,7 +17,7 @@ sudo apt install git libx11-dev libxext-dev build-essential clang gcc
 ```
 then just clone repo
 ```bash
-git clone https://github.com/RolandGalaadsky/rtv1.git somwhere/rtv1
+git clone https://github.com/RolandGalaadsky/rtv1.git somewhere/rtv1
 ```
 ## Usage:
 ```bash
