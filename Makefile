@@ -32,9 +32,9 @@ CC = clang
 
 HDEP = includes/rtv1.h 
 
-LIBS = -L libft/ -lft -lXext -lX11 -L ../../libmlx/ -lmlx_Linux -lm
+LIBS = -L libft/ -lft -lXext -lX11 -L libmlx/ -lmlx_Linux -lm
 
-INCLUDES = -I libft/includes -I includes -I ../../libmlx
+INCLUDES = -I libft/includes -I includes -I libmlx
 
 FLAGS = -Wall -Wextra -Werror -O3 $(INCLUDES)
 
@@ -44,15 +44,18 @@ FLAGS = -Wall -Wextra -Werror -O3 $(INCLUDES)
 all: $(NAME)
 
 $(NAME) : $(OBJ)
+	@make -C libmlx
 	@make -C libft
 	@$(CC) $(FLAGS) $(OBJ) $(LIBS) -o $(NAME)
 
 clean:
 	@make -C libft/ clean
+	@make -C libmlx/ clean
 	@rm -f $(OBJ)
 
 fclean: clean
 	@make -C libft/ fclean
+	@make -C libmlx/ clean
 	@rm -f $(NAME)
 
 re: fclean all
