@@ -17,11 +17,11 @@ sudo apt install git libx11-dev libxext-dev build-essential clang gcc
 ```
 then just clone repo
 ```bash
-git clone https://github.com/RolandGalaadsky/rtv1.git ~/path_that_you_want/rtv1
+git clone https://github.com/RolandGalaadsky/rtv1.git somwhere/rtv1
 ```
 ## Usage:
 ```bash
-cd rtv1
+cd somewhere/rtv1
 make
 ./rtv1 tests/somefile_test_file
 ```
