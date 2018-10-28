@@ -2,11 +2,11 @@
 ray tracing project in UNIT Factory on graphical branch.
 ## Installation
 you need to have:
-  *git
-  *libx11-dev
-  *libxext-dev
-  *build-essential
-  *clang (optional)
+  ..*git
+  ..*libx11-dev
+  ..*libxext-dev
+  ..*build-essential
+  ..*clang (optional)
 
 
 ## Usage:
