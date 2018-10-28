@@ -3,11 +3,11 @@ ray tracing project in UNIT Factory on graphical branch.
 ## Installation
 
 you need to have:
- *git
- *libx11-dev
- *libxext-dev
- *build-essential
- *clang (optional)
+ * git
+ * libx11-dev
+ * libxext-dev
+ * build-essential
+ * clang (optional)
  On Linux distrubution
 install this packages you can download it with sudo apt install git libx11-dev libxext-dev build-essential clang
 
