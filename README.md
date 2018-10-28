@@ -7,10 +7,13 @@ you need to have:
  * libx11-dev
  * libxext-dev
  * build-essential
- * clang (optional)
- On Linux distrubution
-install this packages you can download it with sudo apt install git libx11-dev libxext-dev build-essential clang
-
+ * clang
+ 
+to install this packages you need to write in your terminal :
+  
+```bash
+sudo apt install git libx11-dev libxext-dev build-essential clang
+```
 ## Usage:
 cd rtv1
 make
