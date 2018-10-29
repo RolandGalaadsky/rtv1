@@ -26,10 +26,10 @@ make
 ./rtv1 tests/somefile_test_file
 ```
 ## Test Files Description:
- SHADOW(OPTION)__
- CAM CORDS VIEW__
- LIGHT TYPE INTENSITY POSITION/DIRECTION__
- OBJECT TYPE COLOR SPECULAR POSITION REFLECTION DIRECTION RADIUS ANGLE__
+ SHADOW(OPTION)<br />
+ CAM CORDS VIEW<br />
+ LIGHT TYPE INTENSITY POSITION/DIRECTION<br />
+ OBJECT TYPE COLOR SPECULAR POSITION REFLECTION DIRECTION RADIUS ANGLE<br />
 
 EXAMPLE:
 ```bash
@@ -45,7 +45,8 @@ OBJECT PLANE {55,105,255} -1 {0,0,40} 0.1 {90,0,0}
 OBJECT PLANE {155,155,155} -1 {0,-4,0} 0.2 {0,0,0}
 #above plane with (155,155,155) RGB color without specular with point (0,-4,0) 20 % reflective and normal vector {0,1,0} that is not rotated
 OBJECT CYLINDER {72,255,72} -1 {-5,0,11} 0.3 {-10,0,45} 3
-#above cylinder with (72,255,72) RGB color without specular value with center in (-5,0,11) 30 % reflective direction vector {0,1,0} that is rotated around X-axis in 10 degrees, then Y-axis in 0 degrees, and then 45 degrees around Z-axis, with 3 radius 
+#above cylinder with (72,255,72) RGB color without specular value with center in (-5,0,11) 30 % reflective direction vector {0,1,0} that is rotated around X-axis in 10 degrees, then Y-axis in 0 degrees, and then 45 degrees around Z-axis, with 3 radius
+#scene is without shadow
 ```
 ## Screnshots
 
